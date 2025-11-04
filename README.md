@@ -1,5 +1,64 @@
-本项目旨在利用 LLM（大语言模型）批量分析文档，总结出每家公司的关键信息，并生成结构化的输出摘要，便于业务分析和数据归档。
+This project leverages LLMs (Large Language Models) to batch analyze documents and summarize key information for each company, producing structured output summaries for business analysis and data archiving.
 
+## Features
+
+- Supports chunk-wise processing for long texts, avoiding request length limitations.
+- Auto-retries with exponential backoff to handle HTTP 429 errors from LLM service.
+- Checks the semantic completeness of the generated LLM content and avoids incomplete fragments.
+- Outputs structured key data per company, covering business, market share, and financials.
+- Automated workflow for summarizing results into a concise format.
+
+## Usage
+
+1. **Environment Setup:**
+   - The script requires a `.env` file to store sensitive LLM configuration (KEY, URL, MODEL).  
+   - The `.env` file is ignored by git (`.gitignore`). Please create your own `.env` file locally.
+
+   Required variable example:
+   ```
+   LITE_LLM_KEY=your_key_here
+   LITE_LLM_URL1=https://your-llm-api-url
+   LITE_LLM_MODEL=your-llm-model-name
+   ```
+
+2. **Prepare Input Files:**
+   - List target companies in the `Targets.txt` file (comma-separated).
+   - Place each company's details in the `CompanyDetails` folder as `{company_name}.txt`.
+
+3. **Run the Script:**
+   - Running the script will:
+     - Read the list of target companies.
+     - Call the LLM on each company’s text in chunks, summarizing key data to `Output.txt`.
+     - Further summarize `Output.txt` into concise, structured company summaries (≤400 characters each) in `OutputSummary.txt`.
+
+   Example command (Windows):
+   ```
+   python <your_script_filename>.py
+   ```
+
+## File Structure
+
+- `.env` *(user-provided, ignored in repo)*: API key and model configuration.
+- `Targets.txt`: List of target companies (comma-separated).
+- `CompanyDetails/`: Folder holding each company’s detail file.
+- `Output.txt`: Raw LLM output.
+- `OutputSummary.txt`: Final structured summary.
+
+## Dependencies
+
+- Python 3.x
+- [requests](https://pypi.org/project/requests/)
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
+- [urllib3](https://pypi.org/project/urllib3/)
+- Standard library: os, time, pathlib
+
+Make sure all dependencies are installed via pip.
+
+## Notes
+
+- You must create the `CompanyDetails` folder, `Targets.txt`, and `.env` with suitable contents/paths
+
+------------------------------------Chinese-----------------------------------------
 ## 功能亮点
 
 - 支持长文本分块处理，有效避免单次请求长度受限。
