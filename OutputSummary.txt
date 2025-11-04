@@ -1,0 +1,15 @@
+Apple Inc.
+
+公司主要业务：Apple Inc.是一家美国跨国科技公司，总部位于加利福尼亚州库比蒂诺市。公司业务涵盖硬件、软件和服务，形成了一个无缝集成的生态系统，确保用户忠诚度和市场差异化。主要产品包括iPhone、Mac电脑、iPad平板电脑、Apple Watch智能手表、AirPods无线耳机及其他配件。此外，Apple的操作系统（如iOS、macOS、iPadOS、watchOS和tvOS）与硬件紧密结合，为用户提供独特的使用体验。服务方面，Apple拥有App Store、Apple Music、Apple TV+、iCloud、Apple Arcade、Apple Fitness+、Apple Pay和AppleCare等。
+
+公司市场占有情况：Apple在多个领域占据市场领导地位。iPhone在全球高端智能手机市场中占据显著份额，凭借其前沿设计和功能、独特的iOS系统及强大的App Store生态系统获得高客户满意度。Apple在可穿戴设备市场中也是无可争议的领导者，Apple Watch和AirPods在健康追踪、通信和音频体验方面表现出色。Apple的服务业务也在快速增长，特别是App Store和Apple Music等平台。
+
+公司财务数据：Apple Inc.作为全球最有价值的公司之一，财务表现突出。2022年，Apple的总营收达到约3940亿美元，其中iPhone贡献了最大部分。服务业务的收入也显著增长，达到了约785亿美元，占总营收的20%以上。Apple持续在研发上投入巨资，以保持其在技术创新和市场竞争中的领先地位。
+
+NVIDIA Corporation
+
+公司主要业务：NVIDIA总部位于加利福尼亚州圣克拉拉市，是GPU（图形处理单元）技术的全球领导者。公司成立于1993年，由Jensen Huang、Chris Malachowsky和Curtis Priem创立。NVIDIA最初专注于视觉计算的革命性发展，近年来扩展到人工智能（AI）、数据中心、自动驾驶汽车和专业可视化领域，成为这些领域的主导者。
+
+公司市场占有情况：NVIDIA在半导体行业的崛起归功于其对创新的不懈追求。公司在GPU市场占据主导地位，并在AI、数据中心和自动驾驶等新兴领域不断扩大市场份额，成为行业领导者。其技术和产品在全球范围内得到广泛应用，市场认可度极高。
+
+公司财务数据：NVIDIA在2022年的年收入约为270亿美元。公司通过不断的技术创新和市场拓展，实现了营收的稳步增长。

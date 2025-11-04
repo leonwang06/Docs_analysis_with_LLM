@@ -1,0 +1,10 @@
+Introduction to NVIDIA
+NVIDIA Corporation, headquartered in Santa Clara, California, is a global leader in GPU (graphics processing unit) technologies. Founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem, NVIDIA initially focused on revolutionizing visual computing. Over the years, the company has expanded its expertise into artificial intelligence (AI), data centers, autonomous vehicles, and professional visualization, becoming a dominant player in these fields.
+
+Mainstream Services
+Graphics Processing Units (GPUs)
+
+Market Leadership
+NVIDIA's rise to the top of the semiconductor industry is a result of its relentless pursuit of innovation:
+
+Annual Revenue (2022): Approximately $27 billion.
